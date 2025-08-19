@@ -1,110 +1,371 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A3 Claudia Artes - Arte com Delicadeza e Paixão</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A3 Claudia Artes Portfolio - Artista Plástica</title>
+    <meta name="description" content="Portfolio de A3 Claudia Artes - Artista Plástica especializada em bonecos de biscuit e cenários de RPG. Descubra suas criações únicas e detalhadas.">
+    <meta name="author" content="A3 Claudia Artes">
+    
+    <meta property="og:title" content="Portfolio de A3 Claudia Artes - Artista Plástica especializada em bonecos de biscuit e cenários de RPG.">
+    <meta property="og:description" content="Portfolio de A3 Claudia Artes - Artista Plástica especializada em bonecos de biscuit e cenários de RPG. Descubra suas criações únicas e detalhadas.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Cabeçalho -->
-  <header>
-    <div class="header-container">
-      <div class="logo-container">
-        <img src="logo.png" alt="A3 Claudia Artes" class="logo-imagem">
-        <a href="#inicio" class="logo-texto">A3 Claudia Artes</a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section id="inicio" class="hero">
-    <div class="hero-content fade-in">
-      <h1>Arte com delicadeza e paixão</h1>
-      <p>Portfólio de Claudia de Andrade</p>
-    </div>
-  </section>
-
-  <!-- Produtos -->
-  <section id="produtos" class="produtos">
-    <div class="secao">
-      <h2 class="secao-titulo fade-in">Catálogo</h2>
-      <div class="produtos-grid">
-        <div class="produto-card fade-in">
-          <div class="produto-imagem" style="background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=280&fit=crop&crop=center')"></div>
-          <div class="produto-conteudo">
-            <h3 class="produto-titulo">Bonecos (diversos)</h3>
-            <p class="produto-descricao">Peças únicas em biscuit feitas à mão com extremo cuidado e atenção aos detalhes. Cada boneco possui personalidade própria e características exclusivas.</p>
-            <a href="https://www.elo7.com.br" target="_blank" class="produto-botao">Ver no Elo7</a>
-          </div>
+    <!-- Portfolio Header Section -->
+    <section class="portfolio-header">
+        <!-- Background decorative elements -->
+        <div class="bg-decorations">
+            <div class="bg-circle bg-circle-1"></div>
+            <div class="bg-circle bg-circle-2"></div>
+            <div class="bg-circle bg-circle-3"></div>
         </div>
 
-        <div class="produto-card fade-in-delay-1">
-          <div class="produto-imagem" style="background-image: url('https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=280&fit=crop&crop=center')"></div>
-          <div class="produto-conteudo">
-            <h3 class="produto-titulo">Cenários RPG</h3>
-            <p class="produto-descricao">Criações detalhadas para jogos de RPG e colecionadores. Cenários imersivos que dão vida às suas aventuras e histórias fantásticas.</p>
-            <a href="https://www.elo7.com.br" target="_blank" class="produto-botao">Ver no Elo7</a>
-          </div>
+        <div class="container">
+            <div class="header-grid">
+                <!-- Left side - Illustrations -->
+                <div class="illustrations-container">
+                    <img src="/src/assets/portfolio-illustrations.png" alt="Portfolio illustrations" class="illustrations-img">
+                    <div class="creative-badge">
+                        <span>Bem-Vindo!</span>
+                    </div>
+                </div>
+
+                <!-- Right side - Portfolio Title -->
+                <div class="title-container">
+                    <div class="title-wrapper">
+                        <h1 class="title-port">port</h1>
+                        <h1 class="title-folio">Folio</h1>
+                    </div>
+                    <p class="subtitle">Artista plástica | Biscuit, dioramas e mais</p>
+                    
+                    <!-- Decorative dots -->
+                    <div class="decorative-dots">
+                        <div class="dot dot-1"></div>
+                        <div class="dot dot-2"></div>
+                        <div class="dot dot-3"></div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="produto-card fade-in-delay-2">
-          <div class="produto-imagem" style="background-image: url('https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=280&fit=crop&crop=center')"></div>
-          <div class="produto-conteudo">
-            <h3 class="produto-titulo">Projetos Futuros</h3>
-            <p class="produto-descricao">Novas ideias e colaborações em desenvolvimento. Entre em contato para discutir projetos personalizados e encomendas especiais.</p>
-            <a href="https://www.elo7.com.br" target="_blank" class="produto-botao">Ver no Elo7</a>
-          </div>
+        <!-- Bottom wave decoration -->
+        <div class="wave-decoration">
+            <svg viewBox="0 0 1440 120" class="wave-svg">
+                <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,53.3C672,53,768,75,864,85.3C960,96,1056,96,1152,85.3C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="white"/>
+            </svg>
         </div>
+    </section>
+
+    <!-- Hello Section -->
+    <section class="hello-section">
+        <!-- Background decorations -->
+        <div class="hello-bg-decorations">
+            <div class="hello-bg-circle hello-bg-circle-1"></div>
+            <div class="hello-bg-circle hello-bg-circle-2"></div>
+        </div>
+
+        <div class="container">
+            <div class="hello-grid">
+                <!-- Left side - Text content -->
+                <div class="hello-content">
+                    <h2 class="hello-title">
+                        Olá!
+                        <div class="hello-underline"></div>
+                    </h2>
+                    
+                    <div class="hello-text">
+                        <p>
+                            Meu nome é <span class="highlight">Claudia</span>. Sou uma artista e criadora da A3 Claudia Artes, iniciando minha carreira como artista plástica. Crio bonecos de biscuit, dioramas e cenários para RPG, com planos de expandir para novos projetos no futuro.
+                        </p>
+                        
+                        <p>
+                            Considero-me uma pessoa detalhista e dedicada, sempre disposta a aprender em cada etapa do caminho.
+                        </p>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <span>a3.claudiaartes@gmail.com</span>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <line x1="2" y1="12" x2="22" y2="12"/>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                </svg>
+                            </div>
+                            <span>@a3.claudiaartes</span>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <span>+55 (41) 0378708376</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side - Profile photo -->
+                <div class="profile-container">
+                    <div class="profile-wrapper">
+                        <div class="profile-bg-circle"></div>
+                        <img src="/src/assets/persona-2.png" alt="A3.ClaudiaArtes profile photo" class="profile-img">
+                        <div class="profile-decoration profile-decoration-1"></div>
+                        <div class="profile-decoration profile-decoration-2"></div>
+                        <div class="profile-decoration profile-decoration-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <!-- Background decorative elements -->
+        <div class="experience-bg-decorations">
+            <div class="experience-bg-circle experience-bg-circle-1"></div>
+            <div class="experience-bg-circle experience-bg-circle-2"></div>
+        </div>
+
+        <div class="container">
+            <div class="experience-grid">
+                <!-- Left side - Photo and main content -->
+                <div class="experience-left">
+                    <!-- Profile photo placeholder -->
+
+
+                    <!-- Experience Section -->
+                    <div class="section-block">
+                        <h3 class="section-title">
+                            Experiência
+                            <div class="section-underline"></div>
+                        </h3>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-year">Agosto - Setembro 2025</div>
+                                    <div class="timeline-role">Freelancer</div>
+                                    <div class="timeline-company">Projeto Relógio Teatral - Grupo GBJ</div>
+                                    <div class="timeline-description">
+                                        Criei um relógio em papelão para uma apresentação de desfile e musical em uma igreja católica (Santa Teresinha). Depois ajudei na criação do modelo em tamanho real, de modo que uma pessoa pudesse entrar no relógio para a apresentação teatral.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-year">Maio 2025</div>
+                                    <div class="timeline-role">Pintura/Desenho</div>
+                                    <div class="timeline-company">Mesa de madeira</div>
+                                    <div class="timeline-description">
+                                        Pintei e desenhei diretamente sobre uma mesa de madeira, explorando diferentes técnicas de textura e composição artística.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-year">Agosto 2025 - Em andamento</div>
+                                    <div class="timeline-role">Projeto Artístico</div>
+                                    <div class="timeline-company">Barco para mesa de RPG</div>
+                                    <div class="timeline-description">
+                                        Estou desenvolvendo um modelo de barco para uma mesa de RPG, focando em design criativo e detalhes que tornem a experiência mais imersiva.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-year">2025</div>
+                                    <div class="timeline-role">Projetos Biscuit</div>
+                                    <div class="timeline-description">
+                                        Criei bonecos e miniaturas em biscuit, aplicando minhas habilidades de modelagem, pintura e personalização artística.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Education Section -->
+                    <div class="section-block">
+                        <h3 class="section-title">
+                            Educação
+                            <div class="section-underline"></div>
+                        </h3>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-year">2016 - 2023</div>
+                                    <div class="timeline-role">Colégio Estadual Professor Guido Arzua</div>
+                                    <div class="timeline-company">Ensino Médio</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side - Skills and Software -->
+                <div class="experience-right">
+                    <!-- Skills Section -->
+                    <div class="section-block">
+                        <h3 class="section-title">
+                            Habilidades
+                            <div class="section-underline"></div>
+                        </h3>
+
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-dot"></div>
+                                <span>Desenho</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-dot"></div>
+                                <span>Pintura</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-dot"></div>
+                                <span>Artes Plásticas</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-dot"></div>
+                                <span>Observação e Criatividade</span>
+                            </div>
+                        </div>
+
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Galeria de Projetos -->
+  <section class="projects-gallery">
+
+      <div class="container">
+          <h2 class="gallery-title">Galeria de Projetos</h2>
+          <p class="gallery-subtitle">Confira alguns dos meus trabalhos em biscuit, dioramas e cenários de RPG</p>
+          
+          <div class="gallery-grid">
+              <div class="gallery-item">
+                  <div class="gallery-img-container">
+                      <img src="data:image/jpeg;base64,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" alt="Bonecos de biscuit personalizados" class="gallery-img">
+                      <div class="gallery-overlay">
+                          <h3 class="gallery-item-title">Bonecos de Biscuit</h3>
+                          <p class="gallery-item-desc">Personagens personalizados feitos à mão</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="gallery-item">
+                  <div class="gallery-img-container">
+                      <img src="data:image/jpeg;base64,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" alt="Diorama para mesa de RPG" class="gallery-img">
+                      <div class="gallery-overlay">
+                          <h3 class="gallery-item-title">Diorama RPG</h3>
+                          <p class="gallery-item-desc">Cenário imersivo para aventuras</p>
+                          
+                      </div>
+                  </div>
+              </div>
+
+              <div class="gallery-item">
+                  <div class="gallery-img-container">
+                      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBBAUDAgj/xABDEAABAwMDAQUFBQYEAwkAAAABAgMEAAURBhIhMQcTQWGBIjJRcZEUI6GxwRVCUmKS4SREU4IzorIWJTVDcnOTwtH/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBP/EACMRAAMAAgICAwEAAwAAAAAAAAABAgMREjEhQQQTIjJCUWH/2gAMAwEAAhEDEQA/ALxpSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAM0zXhKktRWt7ytozgeZ+Fcp69kg9y34cKUazvLMdl4x1fR3M1jcn4ion+0Jbow8/uVn9wbRivFUnOFbyST1BzXO/lr0jdfFb7ZM80zUNbuclB+7eVx4FVbjV+kp/4iEL9CDV18qPZV/GtdEmpXB/7TwmlFMxQYUlO5RKhhKfifgPnXStNzhXeA1OtshEiK7u2Oo6KwopP4g1vNqujGpc9m5SlKsVFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKA593s8K8wjDuLPfMlQUASQQocggjoRUYkaFlRhmx3+WyMY7ub/iUfU+1+NTesK901VzL7RZVS6ZSWotVXHSd5/ZmoYbLw7tLiH4pKUrQcjO1XTkHjJroNautQ7r9ofabcpwZbE5hbSVjwwSORW92xwIV7tsUxnkKuURwhAHIUhXvJJ8OgPp51x9MXq9RNKs2ae0wpuMC2lwpDhUjwBBGBgcdDXLePB0dMVm1s3bhq60QFoR9sYfK8YSwvvHCT0CUpzz61tQo2r74SYkBqzRFe49Pyp7HxDQPHqQfKqVsp7/AFZDW2dhEvvU7Dt2bSVjGOmMeGKu2Hq+6RQlLjwfT4h1AJ+WRiix44flEO8ldEG7XNKTbGYMmTc5VxjSQUOKfIAQ6ORhI4GRnw8KtnstvaL5oyE6NoejAxn0oSAN6fHHhkbVetRbWuoI2o9JTrfKh7HyjeypCshK08g1xexC4rtEy4RbkPs0eUhLiFOHADg4xnzB/Cuian0YNV7LxzSvJl9p9O5l1DifihQI/CvStNlDNK+c1qz7hGhNgyF4KuiQMk+lQ3rsJbNvNeCpsVL/ANnVJZD3+mXBu+nWovOvMqUsCMpcZoHPABUv5k9PT61x24zbbr7wU996rcsOuKWCfIKJx6Vy38uU9T5Oifj0158Fj5pmoDFlyIiR9jcUhGeEpV7P06V1GNSyGh/iGQ6Mfu8GrT8qH2RWCkSrNZrlwb5ClbUlZacV0Q5x+PSunurdUn0YtNdmaUpViBSlYzQGaVjNM0BmlYz5UBzQGa8ZrKpER5lC9iloKQrGdpI617UoCqbjYNRwkkSYDVwaSP8AiwF4P/xq5/5jXCfukdll9halMvpbUSy+O7X9D1q8SABVP9s0GPcZ0KVbnG3JbaVNSEJOcJ6pJ/HiuXJgx75dHVj+Rk/nsqbSCUq1JEBCiML6DkHYR+dWV3SgtOd7ST/FVY2RTjd/aZbkORw66UFaAMjOccfPFTyLKu7DoAbYuLaDglKyyrHyORVc0ve0y+Kklpo7yIhdR0S4cfu+NbEeDEho+0S9jIB43KwD5YFa0PVFqQQ3NYkW9znAkNEJ6/xJyMefFbE6x2++nvm5rpWOApDu5P0P6VxtVv8AXRvyWvyebGq47U8RoMCUvPCVtDao+YHwqXMXW4JbSoPOoz+46Eq/v+NceHCi2yMluFGBIHKsjd6nrXgp6UHylwnKj7Cd3GPp/bzqfs8/kooT/o7d21Pd0Wd9Vtix3Z3HdYVjPIzwfHGcdarRWvI0mcHLvDmKmMrKMIeUpJXnB9kHBPXwqZrcUltReKfZG7aOeBz41TWlmlXLV8AqJClOl1Sh1SQkqz9a6MdfZL5mdyoa4ljp1zaC4e+lPRlY911lST9SMCvVWqrc+odxdIrnwBWnNbjsJpwKUotvpB5W42Cfr8vKovf9P22ZKZV3S2ENpOe5wnvMnqqs0sTZo/s0SqPdWHCAmSwrPiFgfrW0iYwCdr6eec94KikKyaYbaCJtijTEYwVJdcac+eQcE/T51I7XpPs3uO1hmPKiPK4DT0x5BJ8juwfQ1qsEV0zJ5rXaPuRNIa+5XEWokey8vYkj54Ne8XWgskdK33mlt/vRg6F7R8Uq4+lUpqa0yrDfZtqkuuL7hwhCiT7aDylQ9PxzXLbYSpWVJHPXjrWkYFHTKVkd+j9NOdqWkW0A/tFSjjOEMrUR9BXKmds2nmAfs8WfJV4BLYT/ANRFUMSSTz1+FYz7BJPBrfZnwRc0ntwj/wCTsTrn/uyAj8ga5Evtqva0n7Ja7ez5vFbn5FNRPT2h9QajIXb4RQwf8xJPdt/XBJ9Aasuw9i1tjhK77PenOeLTH3Tf15UfqPlU7ZV8UQmR2tavkuJQxJjMrPGxmKFFXorJregv9ql/wY71waQvo4sJYT+WR9Kui06bstmb2Wy2RY4+KGxk/M11Mc9anRGyp7F2eatcnxZeoNUPBDTqXVMNPLWpWDnaSTjBq2APOmKyOKkrsUpSgNS6Muv26SzHWEOrbKUKJ4BxxVRXJu42hvu75apEdlJ4kNJ75n1UnlPP8QFXPWCOKyy4pyLyaYsrxvwfkK6KTCvv2llaHEofS8hSTlKgFZx51aK0sykBcZCihYyD0GK3O0bszuN+1XHlWRqNHjuoHfOk4S2oHrtHUmui72f3+DGR9iurFw2pwWpLfdknyUnp6iss2KqS4+jfDlmX+vZGn476AdykkY9081HnIojyCuOyYqieVRyUk/TrUmnvSbQoJvluk29PQvOJ3NHz3pyPQ19x2WZLfeMuNvI/jSQR+FcjrJj7R1qcWTpnNh3e9x2yWJrcsDjupiMK/qHSt5OrZDCcXG0vtjxcYPeo/sPnXsq2NuJ5SAR8a1V25xk721lKR8eRULLFdoh4anpmtdNSRpluluR5SQ8Izm1CVEHoQPZIBP0qIaCcbZ1T3rhwlDK8Y8TkCu9fGN0N9x2M2paUkhzbyKiWnkvC7OJZkFhW1R3bQrofOuvGp4PicuTkqXItt2a7IUkNNYTjhXFajjY3YW8nKj0KgTmuIzMvrXDaoUgJ8CC2frzXwvUExtwCXaQteejTgV681y/VS6Nvsn2SFiKHB94lGAeCPH0r7ct4dSoBKsHrlPWuF/2kcKcKs1xQP5Ubs/StyFqOdJRmJp+8SEoO093GWcH4E44q0xlT8IhvE/ZG+0CC41IiSHVrWpSC1lSsnA5A/E1F0YIqbawvEgBpi9aediqWkqaRJwCfDIwc1C04UpZSgIGeE7s4rsjlr9HO+O/yfTSVuuJbaSXFqISlCBkknoB51eWgezCHa2m7hf20Sp5wUsE5bY8v5lfE9OOKhXY1aG7jq5Mh5AUiC0XQCONx4H61+gq0lezO36MJQlCQlAAAGAAMYrIArNKuZilKUApSlAKUzSgFKV8haSopChuHJGeRQH1gUpSgMKSFJKVAEEYII61FbloDTsx1T7MNVvkk5L9vWWFH5hPB+lSusVDSfZKbXRW0zRuoIIUqDMjXVr/Tkp7l3+pPH4c1wJ8xdv8Au7zBlWz+d9OWzz/qJyPrg1dFfLjaXE7VpCk/AjNYV8bHXo3n5OSfZSF3SmTZ5n2dSXE9yohTZB5wcZ+FVzppSE6kShxWEOb05z6/pX6HvHZxp+471x2HLbJUD99BX3f1T7pz5j1qgdP2e6XDU/2e124y32txcb3bEt4GDlXQeIqIwOJa2WvOrpPRKHG0N57opxuwMGvlEd5s73E5+AJ59a6ybfPtoIn6bujah/5raEPJHyI5P0rUdu0fkKYuCVH+KA6D/wBNcrnKvR0qsT9no28go9oYx4Y/KsnUK9MPJubLoS+k7Qxu4fHilQ/XwrziykvOpLNtuslwe423BUkD1VgZ86+L7prUd4jF5Gk39qE4HfLQHceQHP41riWTflGGT6/TIZf7vN1Fd3rpcV7nXSNqQfZbSOiR5D/9NaiBtSccCtl22ToSu5mwZLTiTjappQxU50H2bTL241NvLTkW2AhXdrTtW+P4ceCfA+OPrXX2ZbSRMOw6zrh2B+6vo2qnr+63DBLaeh9ST6AHxqzK82WkMtIaaQlDaEhKUpGAkDoBXpVzFilKUIFKUoBSlKA817tuUJBPwJxUZ0vfp8+4zbfdER2n4Sg0oICsuL2hW4eG3BHnnIxxk7+qL8xp6AJcpK+6JKdyUkhJxxuwOAfieKgVl1DMud4my7ZD76PN2d6pEhvCNqUgbtiiQfe8PhWd1x8l5jki0H5LTTaipQyBnaOpquLXqWS5rx16aHY0RcZe4AeykJGUb+M59/HnxUgQsMoDYOEjpznP1qKamYUEyJMy7PMRnyhsjut2Bu9lIHmVYz51yr5DqtdHWsKiXvzs7tw1BP1BpR+Vp1Rall0Mx0tqAUtzeACSocIx7R6HAPrLrK88/bWHZG/etAUQ4EhY45CgnjIOelU3p8wXvs9sZuDzclnKkoaUCeRk5Hhg5HI8andgYdtLCmGJMhYKsqLzhXj69K0fyFPhox+h0tom+azVfTu0q1WySqM/IblOBWwNxlBxZV0xgcD1Iqb2yQ7Kt8eQ/GXFddbClsLIKmyfAkcVvF8kY1PHwbVKUq5UHpWnCtsOC685DitMLfWVvKQkDvFHxNblYPSgBrBSlRyQCflUc1dqyLpsw0Pjep9zlI6pbHvK6+Fd2PJQ884hHPdhOVeZ5x9MH1oTo9xWa593ubdrSw9JQfsy3A2t4EYaKiAkkH90k4yOnHHw9UXCIq4LgJeSZSUd4poZJCfiaEGwttCz7baVY6ZANfQ6dMVmlAKUpQClKUApSlAKUpQHyQcVwLpovTt0dD8m1spkAkh9gd04D8dycHNSGvKS8iOwt104QkZNQ9eyVv0UjqxzUejLxKRElvyLQhtDzappLoCTkFO48lQI+OcEfGpGtd/jQkyJ9kanw1thXfwH0kbSM5KV4+gzXG7W9RW2YmLHLz7SvaBSjaQtPjuB5GPDB6npwMasCSuPo091Oelxo0VfdF0+6ADgD5dK5cn1vtHVH2a/LPONrRqbeWLZp2Ey2uSvalUkJaZSQCrJI5J4qcROz5yejfqi+SbilfWNHPcxyPkOVD5k1SWgUJXqZKyrb3TLiwfgeE//AGq14txkRyDEeW18diiM+nj61P4xvoh87XZFu2TSMKwzIU+2Rm2LfJR9ncabGAhYHB8sj8qtTsyvir9o2DIfXvlMgx5BJ5K0cZPzGFetQrWM+bftNyLdI2uKKkrbWpHKVJOQeMflWOyt9emEzYswl5mSpDg7nkoWBg5B55GPpWqzRvWzJ4610WzLkCNHW8UOL2jO1tOVHyAr7ZdS80lxHuqGRXEvE6POs0oMyCytTRAUcpUPy/OvTS6k/stptxxC5DY2uhC9wyPEDwzVlW34KudTs7VYzxXhNkGPDffSnepptSwknGcDNcFrVsdceJgJVKkthYZCsFHHOQefwqapT2RMuujjdrTMd62RUqQPtOVqbXt9rASSQD9K6ekL5ZE2OKISURkKbDjjaR7i1cqB8Rznr8KrntFSUTFXiXJceQ+tLZjd0FIQMDOORjp58k/GtfQ14gwWkQwsrdkvEoS2sEA9PdA+XJzWH2bTqTVzrU0XFeZVml2OSbk8w5blIIeC14Ch8Pw6VXekbkYt8S/GhOCO62WmmVqKi22raW05V15+mcVpa8u78aIqI3b2nApAWC8wVp4OeAP3hjjNcTQl2XapyHISHEN70tKTJbUU+17oOfdyrGMeI8c1Ky7Soh49bR+g0nIr6riQ9QMFITNAZX4qByjPzrrtvIdQFtqCkHkKByDW02q6MnLnwz0pWM0zViDNKxmmeaAzSsA56Uz5UBmlea3m0EBa0JJ4wVAV9g5oDNa8+GzPhuxZSSpl1O1QCik4+YrYoaAre69mIW6qRAmMyldQ1dY6XefAd4nCgB57qhurJsmBAn2afBXGf2FpJaUFtKzg8HggY8jV5zJLMOMt+QsIbQMk1S3aTcbLcLipbhfamKSksI3hRUocblJz7IwSPkM/EVhcQ2tm+PJRCezlA/a7z25sI7goClrwASUn9KslDA70HlaSOrYFVPpBlhWoUxZTXepWhxCUjg7wM5Bz19k1N2xPtTjbkWU60FEJ7uRtdQlJPJz7xxxWGaFvs6MVPWkiYswytobAU88lYzWpLvtpsx7vel+UM5Q3+6fMjp+JrXZ1NcIoCbpaUuNj3n4Dm8DzKFYV9K2I9z0pfHG1qVED4OQiQ33TmfIKAz4Vy8Gnultf8NXe/C8HKK9Q6nPd900xCKtwWklKU9Rwrqrr0I/SpFYrCzZ3XZDU6U7Ic4Ky4E4+QSAPDxrquk7NrSwlATgeznI8q5yIrra1hLhxkkucePh/ejyv14RChHlrS7z0WTZHuamXivckFsEuAA5SceHSq/s2vLw/PZiN2+LLmuHanb7CiAMkZOfAeVTLViWv2DPU/h1TbClIKx7qsYSR55IquOzSM1O1Y46+jLTLC1YPgcgD9a6sbVw3XkxueNpSS+RqWVlSbrpqaCFdGlB1OPkdorVa1bZI7iVBqTDP7yXI5yB/tz9a3Jcl2Dq5kpS99jkM9z3acq2lBPJ+HJwfl5Vm8W2FPnoky4bTxSju0q2+AJ4x6ms08a9FnyZ5vauscphxtF4bbWUZC15BBOR4/CoU13jK193fbY8lW0qUqTtJwc+P5+Gas+LcExghsxIr7efckMA/j1r4v0qyyYDLMbT9vZnuSG0rDrSVILWfbIPBHGeoHlW+Kca/kxyVddnOhaigtwGw/qW3pmD31kh1B+A6gn55HpW432j2y0tIVGuLEl3jvGmhhDh8cDJx9TVSahtDljv021LcKxHcKW3Cc72zylWfMEeua8GGcLCiBlJyMVdYlL3sjm6WtF8vdstkQdrVtuSz8SlCUj/mz+FcyX20eESxZP8AE7Jx+ATVRVlCSspQhJUonASMkn5YrTbK8EiyX+2e8r4j22A3/wCorX+ornSO1fVTudr0VgfBDAJ/HNeWnezHUF72uyGkWyIcfeSQStQ/lbHP1I9asmydlOnLftVMbduTw6qkn2f6BgVPkj8oqsa11ldHdkW4TnlZxiKjHP8AtFdqJpbtFvCQZMiTHQo9ZcraR6DJq74kKLDbDcRhplAGAltATXvjmraKuiqLL2RS0ymJN81G893biXCxHSoAkHOCtSun+0Va6QEpAHQUxWakoKUpQGjeLei5292I44tsLx7aMZSQcg81Vl87NpiJapv2Ri787ipDndPcdPZPsn6irhrB6cVVymWVNH5NYTItWtGChopdZlpJbcwk4PvA56cE1L9W32PHe+zSWdq0o3hah7IyOOPGrDvHZdar1ql28z33VMu4UqK37IUvzV1xwK2J3ZzA2/8Acsp63kdGj961/Srp6VleLk0/9G2PPwWiu7a5IucVMlpl6OF9N/GfkOuK8Zttdf3fayktdVOLHSpZNsmobWrMm3ImsA8vwT7XzKDz9CaiepZciayiNY223JG775h3DbyD+7hKsfrXI5yKtdHXzx1O+2fUILYazarhLiA8KQDvb4/lOQBXTbvV9aScojTUfxsnYv8ApPFcvTNpvb7jir8ksspSA2lwjfu9PCpA7a22klaSSs1W7lVxZEY252iNalvrcu1yI7rLzEpe0bXmtqsBQJwfHp5VyezB9cebOkBor3NpAI6Dkk/nXZ1VGkItCw4s7C4OD4daiGj4zUh6RvU+0UISQtl0oIyfKuieLxvRhac2tnfvWpmxfGXGUBXdOOJUPd3K3EK/U+tdywXRq8x1OtBTW1woUkJOAR59OmOK5LlpLwU6Lml0jn/FspXu8ycZP1r2h3G9MbUQ0Wx9pPCS2gtp+QwSKpkxpz+ey0Vxp8iXNpQ20TIX7KASSrgAVEf29b51+K1uLRCYADeE++rByTz5g19uXu7yZDsBy0xXXEoytKZHs7T6VoQtFXO7rU7AsQyk7VD9oBJHkRjOKthxv/IjLc9yauu4zCZ0WTGKSh5nqDxwePzrgt42kCpNqa4XWzuJsk+Fb21MNDDaV98EA/MdeKjTAKgVnanJ6DpW07S0ym0/KNm2wpNxmx4UNvvX31htCenJ/QV+gtFaEt2mmUOuJRJuBHtyFj3D4hA8B+NQTsOtiX7tOuS0ZTHbCEEjopX9hV1ACtJRlkrzoYFKzSrmYpSlAKUpQClKUApSlAMVjis0oDHSuZeLFary2EXOBHk491S0+0j5KHI9K6lKAgkjQT8UZ0/eX2Wx0iTfv2/kCfaA+RrizmL1bf8AxWzuqaH+YgHvk4+JT749M1atKwv4+Ou0bR8jJPsorUUuJcLLIEaQ24pCkEoyQpHtAYweR1qD6AdaYuj7UhAO5kY4znB/vX6F1vp2BdLDcHfsDK5zcZxcd0NjeFhJI5HPUCqZ0HorUVyky51vbjRowJCVzUKw6c+6ABkY8f1qqwKIco0efnapn3cnRIjPtRHmm14HtLVtA8s9MkeFaYuMW0W77Swe9GQja2SQFdCAT4Dj511b32c6qX36P2aO5fWlbwiyUrSpQGMpSrkV8wNNTbXCchuaWvj4cVvXvS2tKiB8PSq/XqS32Kq7OXp6/tP3ZwuNlBkFKQnhWT4e119Onl4juXbVLum30PW5zbdVAgBQykoPHtDxGcED4ivu06YubL6XrZoiQJA572ZIQ3g+XBx6Vs33Q2tbnHLrsC1np/h239y/qobTUqadJpFHwS06K3eW9KkuSpTq3n3VFbjizkqUepNfXRI5KQOTius5pi+Rlhh+0TEu9AAyTzVjaB7MnGJDN11Gn22juYh8HCvBS/MeA8K1032RylIk3ZVYnLJpVsy2yiXMWX3UnqgH3Un5Jx6k1M6DpWa1MG9ilKUIFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoAelfCEBIwBj5CvulAYpWaUBgVmlKAVis0oBSlKAUpSgFKUoBSlKA//2Q==" alt="Barco para mesa de RPG" class="gallery-img">
+                      <div class="gallery-overlay">
+                          <h3 class="gallery-item-title">Barco para RPG</h3>
+                          <p class="gallery-item-desc">Embarcação detalhada para aventuras</p>
+                          
+                      </div>
+                  </div>
+              </div>
+
+              <div class="gallery-item">
+                  <div class="gallery-img-container">
+                      <img src="https://cdn.awsli.com.br/1718/1718464/produto/183241395/51fd6764a1.jpg" alt="Relógio teatral em papelão" class="gallery-img">
+                      <div class="gallery-overlay">
+                          <h3 class="gallery-item-title">Relógio Teatral</h3>
+                          <p class="gallery-item-desc">Cenografia para apresentação</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
   </section>
 
-  <!-- Sobre -->
-  <section id="sobre" class="sobre">
-    <div class="secao">
-      <h2 class="secao-titulo fade-in">Sobre</h2>
-      <div class="sobre-conteudo fade-in">
-        <p>Claudia de Andrade é uma artista apaixonada por criar obras únicas em biscuit e cenários artísticos. Com anos de experiência e dedicação, cada peça é feita com cuidado especial, trazendo vida e personalidade aos detalhes mais minuciosos. Seu trabalho reflete a busca constante pela perfeição e o amor pela arte manual.</p>
+  <!-- Seção de Comissões -->
+  <section class="commissions-section">
+      <div class="container">
+          <div class="commissions-content">
+              <h2 class="commissions-title">Encomende seu Projeto</h2>
+              <p class="commissions-description">
+                  Interessado em um trabalho personalizado? Entre em contato para discutirmos sua ideia e transformá-la em realidade!
+              </p>
+              
+              <div class="commission-options">
+                  <div class="commission-option">
+                      <div class="option-icon">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                          </svg>
+                      </div>
+                      <h3 class="option-title">Via WhatsApp</h3>
+                      <p class="option-desc">Conversa direta e rápida para tirar dúvidas</p>
+                      <a href="https://wa.me/55410378708376?text=Olá! Gostaria de encomendar um projeto." class="option-btn whatsapp-btn" target="_blank">
+                          Enviar Mensagem
+                      </a>
+                  </div>
+                  
+              
+            <div class="commission-process">
+                <h3 class="process-title">Como funciona o processo:</h3>
+                <ul class="process-steps" style="list-style: none; padding-left: 0;">
+                    <li class="process-step">Você entra em contato descrevendo sua ideia</li>
+                    <li class="process-step">Discutimos detalhes, prazos e orçamento</li>
+                    <li class="process-step">Aprovação do projeto e início da criação</li>
+                    <li class="process-step">Atualizações regulares sobre o andamento</li>
+                    <li class="process-step">Entrega do trabalho finalizado</li>
+                </ul>
+            </div>
+
+          </div>
       </div>
-    </div>
   </section>
 
-  <!-- Contato -->
-  <section id="contato" class="contato">
-    <div class="secao">
-      <h2 class="secao-titulo fade-in">Contato</h2>
-      <div class="contato-conteudo fade-in">
-        <p>Entre em contato diretamente pelo WhatsApp para encomendas, informações e projetos personalizados.</p>
-        <a class="btn-whatsapp" href="https://wa.me/5541999999999" target="_blank">
-          <span>💬</span>
-          Falar no WhatsApp
-        </a>
-      </div>
-    </div>
-  </section>
+            <!-- Bottom decoration -->
+            <div class="showcase-bottom-decoration">
+                <div class="showcase-decorative-line"></div>
+                <span class="showcase-decorative-text">Portfolio Showcase</span>
+                <div class="showcase-decorative-line"></div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Botão WhatsApp flutuante -->
-  <a href="https://wa.me/5541999999999" target="_blank" class="whatsapp-flutuante" title="Falar no WhatsApp">
-    💬
-  </a>
-
-  <!-- Rodapé -->
-  <footer>
-    <p>© 2025 A3 Claudia Artes. Todos os direitos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
