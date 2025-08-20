@@ -216,7 +216,7 @@ body {
 
 .wave-decoration {
     position: absolute;
-    bottom: 0;
+    bottom: -2%;
     left: 0;
     right: 0;
 }
@@ -847,7 +847,6 @@ body {
 /* Galeria de Projetos */
 .projects-gallery {
     padding: 5rem 0;
-    background: linear-gradient(30deg, var(--peach), var(--pink));
     position: relative;
     overflow: hidden;
 }
@@ -1074,7 +1073,6 @@ body {
 
 .commission-option:hover {
     transform: translateY(-0.5rem);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .option-icon {
